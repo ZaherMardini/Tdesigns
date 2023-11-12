@@ -1,0 +1,154 @@
+/* Centering */
+.f-center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.p-center{
+    position:absolute;
+    left:50%;
+    right:50%;
+    transform:translate(-50%,-50%);
+}
+/* End Centering */
+
+/* Shapes */
+/* .c-10{
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 10px;
+} */
+.arrow{
+    position:absolute;
+    border:50px solid;
+    width:0;
+    height:0;
+}
+.d-top{
+    border-color: transparent transparent blue transparent;
+}
+.d-bottom{
+    border-color: red transparent transparent transparent;
+}
+.d-left{
+    border-color: transparent green transparent transparent;
+}
+.d-right{
+    border-color: transparent transparent transparent aqua;
+}
+.line{
+    width: 3px;
+    height: 70%;
+    background-color: blue;
+}
+/* End Shapes */
+
+/* Media quiries */
+/* small screen */
+/* @media(min-width: 768px) {
+    .h-container{
+        width:calc(100% - 10px);
+    }
+}
+@media(max-width: 768px) {
+    .h-container{
+        width:calc(100% - 20px);
+    }
+}
+
+@media (min-width: 992px) {
+    .h-container{
+        width:calc(100% - 30px);
+    }
+}
+
+@media (min-width: 1200px) {
+    .h-container{
+        width:calc(100% - 50px);
+    }
+} */
+/* End Media quiries */
+
+/* 
++++++Icons+++++
+<i class="fa-solid fa-ghost"></i>
+<i class="fa-sharp fa-solid fa-code"></i>
+<i class="fas fa-angle-left change-background fa-2x"></i>
+<i class="fas fa-angle-right change-background fa-2x"></i>
+<i class="fas fa-bars toggle-menu"></i>
+
+<i class="fas fa-trophy"></i>
+<i class="far fa-folder"></i>
+<i class="fas fa-mug-hot"></i>
+<i class="far fa-envelope"></i>
++++++End Icons+++++
+
+/* ++++components++++
+.portfolio{
+    position:relative;
+}
+.p-container{
+    background-color: #0319a9;
+    padding:50px 0;
+}
+.component{
+    position:relative;
+    height:200px;
+}
+.com-welcome::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 41.5px;
+    transform: translatex(-50%);
+    background-color: aqua;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    z-index: 1;
+}
+.com-welcome::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    transform: translatex(-50%);
+    width: 130px;
+    height: 3px;
+    background-color: black;
+}
+.component h2{
+    font-size:25px;
+    color:var(--text-color);
+}
+.com-welcome{
+    text-align: center;
+}
+.component .com-text{
+    display: flex;
+    flex-wrap: wrap;
+    width: 550px;
+    line-height: 2;
+    position: relative;
+    top: 70px;
+    left: 50%;
+    transform: translatex(-50%);
+    color: var(--text-color);
+    flex-direction: column;
+}
+++++++++++
+.banner{
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    min-width: 50%;
+    padding: 50px;
+    transform: translateY(-50%);
+    background-color: var(--transparent-color);
+}
+ */
